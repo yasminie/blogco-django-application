@@ -1,0 +1,46 @@
+footer{
+	text-align: center;
+	padding: 3px;
+	background-color: black !important;
+	color: white !important;
+	position: fixed !important;
+	bottom: 0 !important;
+	width: 100vw !important;
+}
+
+#title{
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 5%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 90%
+  );
+  background-size: 300% 300%;
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: gradient 10s ease infinite;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
