@@ -1,2 +1,2 @@
-# blogco-django-application
+# BlogCo. Django Application
 blog Django application 
